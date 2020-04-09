@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 50%;
+    width: 500px;
+}
+
+.firstScreen, .secondScreen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accountItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.accountItemImg {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.accountItemTitle {
+    font-size: 18px;
+}
+
+.secondScreen {
+    flex-direction: column;
+}
+
+.secondScreenBtnContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
